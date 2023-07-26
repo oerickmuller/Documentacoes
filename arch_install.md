@@ -22,9 +22,10 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 - **exa** is a `ls` replacement
 - **ripgrep**, or `rg`, is a fast grep replacement
 - **bat** is a `cat` replacement
+- **zellij** and **tmux** are terminal multiplexers, not required but useful for command line freaks (like me)
 
 ```sh
-$ yay -S micro exa ripgrep bat
+$ yay -S micro exa ripgrep bat zellij tmux
 ```
 
 ## Install media codecs
@@ -36,5 +37,75 @@ $ yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins
 ## Install fonts
 
 ```bash
-yay -S adobe-source-sans-pro-fonts ttf-dejavu ttf-opensans noto-fonts freetype2 terminus-font ttf-bitstream-vera ttf-dejavu ttf-droid ttf-fira-mono ttf-fira-sans ttf-freefont ttf-inconsolata ttf-liberation libertinus-font ttf-ms-win11-auto
+$ yay -S adobe-source-sans-pro-fonts ttf-dejavu ttf-opensans noto-fonts freetype2 terminus-font ttf-bitstream-vera ttf-dejavu ttf-droid ttf-fira-mono ttf-fira-sans ttf-freefont ttf-inconsolata ttf-liberation libertinus-font ttf-ms-win11-auto
 ```
+
+## Enable pacman autoclean 
+
+If you're short on space disk, this is *recommended*:
+
+```bash
+yay -S pacman-contrib
+sudo mkdir /etc/pacman.d/hooks
+sudo micro /etc/pacman.d/hooks/clean_package_cache.hook
+```
+
+On the editor, paste this code:
+
+```
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+[Action]
+Description = Cleaning pacman cache...
+When = PostTransaction
+Exec = /usr/bin/paccache -rk 2
+```
+
+## Install browsers
+
+```bash
+yay -S firefox google-chrome vivaldi microsoft-edge-stable-bin
+```
+
+## Some tweaks:
+
+### Adjust swappiness:
+
+If your machine has enough memory, you can reduce the frequency of disk use for offloading memory.
+
+```
+sudo micro /etc/sysctl.d/99-swappiness.conf
+```
+
+Add this line:
+
+```
+vm.swappiness = 10
+```
+
+## For developers:
+
+### Install some nerd fonts
+
+### Install visual studio code
+
+### Build and install neovim
+
+### Install python via pyenv
+
+### Install nodejs via nvm
+
+### Install go
+
+### Install rust
+
+### Install openjdk
+
+### Install .net/mono
+
+### Bonus: set a special python environment for tools
+
