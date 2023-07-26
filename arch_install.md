@@ -20,7 +20,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 - **micro** is a command line editor that's simpler than nano.
 - **exa** is a `ls` replacement
-- **ripgrep**, or `rg`, is a fast grep replacement
+- **ripgrep**, or `rg`, a faster grep
 - **bat** is a `cat` replacement
 - **zellij** and **tmux** are terminal multiplexers, not required but useful for command line freaks (like me)
 
@@ -113,6 +113,8 @@ vm.swappiness = 10
 
 ### Install nodejs via nvm
 
+### Install docker
+
 ### Install go
 
 ### Install rust
@@ -129,5 +131,5 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
 -->
