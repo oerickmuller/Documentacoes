@@ -129,8 +129,13 @@ curl https://pyenv.run | bash
 
 Don't forget to update the `.zshenv`  file as needed.
 
+Install python 3.9, 3.10 and 3.11 using 
 
- 
+```bash
+for i in 9 10 11; do
+  pyenv install "3.$i"
+done
+```
 
 ### Install nodejs via nvm
 
@@ -152,7 +157,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI5NTU2MDYsLTY0ODU1Mzg5NSw1NT
+eyJoaXN0b3J5IjpbLTEwMjM1NzE3MTcsLTY0ODU1Mzg5NSw1NT
 AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
 LTEwMzgwMDEwMDldfQ==
 -->
