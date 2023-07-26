@@ -82,7 +82,7 @@ yay -S firefox google-chrome vivaldi microsoft-edge-stable-bin
 ## Install image editors and a screenshot helper
 
 ```bash
-yay -S shutter gimp inkscapre conjure
+yay -S shutter gimp inkscape conjure
 ```
 
 ## Some tweaks:
@@ -131,5 +131,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbMTczNTg5NzA2LDMwMDYwODg0MiwtMTAzOD
+AwMTAwOV19
 -->
