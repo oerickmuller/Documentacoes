@@ -155,6 +155,8 @@ nvm install --lts
 yay -S docker
 sudo usermod -aG docker $USER
 yay -S docker-compose
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
 ```
 
 ### Install go
@@ -173,7 +175,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NjAxMjc3LC02NDg1NTM4OTUsNTUwMD
-QwODYxLDQxOTg4MjcxOCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0x
-MDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbLTIwODc4NTMxNTgsLTY0ODU1Mzg5NSw1NT
+AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
+LTEwMzgwMDEwMDldfQ==
 -->
