@@ -123,7 +123,7 @@ sudo make install
 ### Install python via pyenv
 
 ```bash
-
+```
 
 ### Install nodejs via nvm
 
@@ -145,6 +145,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkxNzQ0MDksNDE5ODgyNzE4LDE3Mz
-U4OTcwNiwzMDA2MDg4NDIsLTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbNTUwMDQwODYxLDQxOTg4MjcxOCwxNzM1OD
+k3MDYsMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
 -->
