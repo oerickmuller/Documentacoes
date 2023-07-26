@@ -4,10 +4,10 @@
 Yay is a helper for packages install: [yay](https://github.com/Jguer/yay)
 
 ```bash
-$ sudo pacman -S --needed git base-devel
-$ git clone https://aur.archlinux.org/yay-bin.git
-$ cd yay-bin
-$ makepkg -si
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
 ```
 
 ## Install zsh and oh-my-zsh
@@ -129,5 +129,5 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDEyNDg4M119
+eyJoaXN0b3J5IjpbMTQ3MTk0MDk0N119
 -->
