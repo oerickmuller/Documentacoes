@@ -161,6 +161,16 @@ sudo systemctl start docker.service
 
 ### Install go
 
+Download t
+
+```bash
+yay -S docker
+sudo usermod -aG docker $USER
+yay -S docker-compose
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
+```
+
 ### Install rust
 
 ### Install openjdk
@@ -168,14 +178,8 @@ sudo systemctl start docker.service
 ### Install .net/mono
 
 ### Bonus: set a special python environment for tools
-
----
-
-This doc is based on:
-
-- (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc4NTMxNTgsLTY0ODU1Mzg5NSw1NT
-AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
-LTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbLTE4MTg0ODEwMjMsLTIwODc4NTMxNTgsLT
+Y0ODU1Mzg5NSw1NTAwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcw
+NiwzMDA2MDg4NDIsLTEwMzgwMDEwMDldfQ==
 -->
