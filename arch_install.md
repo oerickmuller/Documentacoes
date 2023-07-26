@@ -176,12 +176,19 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ### Install openjdk
+```
+yay -S jdk17-openjdk
+```
 
 ### Install .net/mono
 
+```
+
+```
+
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDE0MjI3MCwtMjA4Nzg1MzE1OCwtNj
-Q4NTUzODk1LDU1MDA0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2
-LDMwMDYwODg0MiwtMTAzODAwMTAwOV19
+eyJoaXN0b3J5IjpbLTg1MjIxMTUzMCwxODQwMTQyMjcwLC0yMD
+g3ODUzMTU4LC02NDg1NTM4OTUsNTUwMDQwODYxLDQxOTg4Mjcx
+OCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
 -->
