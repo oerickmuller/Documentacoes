@@ -166,10 +166,14 @@ Download the Linux installer from https://go.dev/dl/
 ```bash
 sudo tar -C /usr/local -xzf go1.20.6.linux-amd64.tar.gz 
 mkdir -p go/bin
-echo "export PATH=\"$PATH:\$HOME/go/bin:/usr/local/go/bin\"" >> .zshenv
+echo "export PATH=\"\$PATH:\$HOME/go/bin:/usr/local/go/bin\"" >> .zshenv
 ```
 
 ### Install rust
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
 ### Install openjdk
 
@@ -177,7 +181,7 @@ echo "export PATH=\"$PATH:\$HOME/go/bin:/usr/local/go/bin\"" >> .zshenv
 
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjYxMTk5NCwtMjA4Nzg1MzE1OCwtNj
+eyJoaXN0b3J5IjpbMTg0MDE0MjI3MCwtMjA4Nzg1MzE1OCwtNj
 Q4NTUzODk1LDU1MDA0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2
 LDMwMDYwODg0MiwtMTAzODAwMTAwOV19
 -->
