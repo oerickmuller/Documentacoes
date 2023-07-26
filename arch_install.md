@@ -127,7 +127,9 @@ yay -S --needed base-devel openssl zlib xz tk
 curl https://pyenv.run | bash
 ```
 
-Don't forget to update the  
+Don't forget to update the `.bashrc` file as needed.
+
+ 
 
 ### Install nodejs via nvm
 
@@ -149,7 +151,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA0NzMwMzEsLTY0ODU1Mzg5NSw1NT
-AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
-LTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbMjI1MDU3MzM5LC02NDg1NTM4OTUsNTUwMD
+QwODYxLDQxOTg4MjcxOCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0x
+MDM4MDAxMDA5XX0=
 -->
