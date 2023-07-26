@@ -128,3 +128,6 @@ vm.swappiness = 10
 This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY3NDEyNDg4M119
+-->
