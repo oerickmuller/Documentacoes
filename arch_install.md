@@ -107,8 +107,9 @@ vm.swappiness = 10
 
 Using yay, install desired fonts from the https://archlinux.org/packages/?q=nerd list
 
+Example:
 ```
-yay -S ttf-inconsolata-go-nerd 
+yay -S ttf-inconsolata-go-nerd ttf-hack-nerd ttf-jetbrains-mono-nerd
 ```
 
 ### Install visual studio code
@@ -194,8 +195,8 @@ yay -S dotnet-runtime dotnet-sdk aspnet-runtime
 
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTY4MTc0LC0xMDk2NjU5NDA3LC04NT
-IyMTE1MzAsMTg0MDE0MjI3MCwtMjA4Nzg1MzE1OCwtNjQ4NTUz
-ODk1LDU1MDA0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2LDMwMD
-YwODg0MiwtMTAzODAwMTAwOV19
+eyJoaXN0b3J5IjpbLTM1Mjg3NDgyNSwtMTA5NjY1OTQwNywtOD
+UyMjExNTMwLDE4NDAxNDIyNzAsLTIwODc4NTMxNTgsLTY0ODU1
+Mzg5NSw1NTAwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMD
+A2MDg4NDIsLTEwMzgwMDEwMDldfQ==
 -->
