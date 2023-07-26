@@ -108,7 +108,7 @@ vm.swappiness = 10
 ### Install visual studio code
 
 ```bash
-yay -S visual-studio-code
+yay -S visual-studio-code-bin
 ```
 
 ### Build and install neovim
@@ -135,6 +135,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQyOTk1MzgsMTczNTg5NzA2LDMwMD
-YwODg0MiwtMTAzODAwMTAwOV19
+eyJoaXN0b3J5IjpbMjAzMzczNTQ2NCwxNzM1ODk3MDYsMzAwNj
+A4ODQyLC0xMDM4MDAxMDA5XX0=
 -->
