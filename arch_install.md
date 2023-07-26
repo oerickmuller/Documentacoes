@@ -165,7 +165,8 @@ Download the Linux installer from https://go.dev/dl/
 
 ```bash
 sudo tar -C /usr/local -xzf go1.20.6.linux-amd64.tar.gz 
-mkd
+mkdir -p go/bin
+echo "export PATH=\"$PATH:\$HOME/go/bin:/usr/local/go/bin\"" >> .zshenv
 ```
 
 ### Install rust
@@ -176,7 +177,7 @@ mkd
 
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc3NjM0OTQsLTIwODc4NTMxNTgsLT
-Y0ODU1Mzg5NSw1NTAwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcw
-NiwzMDA2MDg4NDIsLTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbLTY1MjYxMTk5NCwtMjA4Nzg1MzE1OCwtNj
+Q4NTUzODk1LDU1MDA0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2
+LDMwMDYwODg0MiwtMTAzODAwMTAwOV19
 -->
