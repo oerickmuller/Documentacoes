@@ -45,7 +45,7 @@ yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-u
 ## Install fonts
 
 ```bash
-$ yay -S adobe-source-sans-pro-fonts ttf-dejavu ttf-opensans noto-fonts freetype2 terminus-font ttf-bitstream-vera ttf-dejavu ttf-droid ttf-fira-mono ttf-fira-sans ttf-freefont ttf-inconsolata ttf-liberation libertinus-font ttf-ms-win11-auto
+yay -S adobe-source-sans-pro-fonts ttf-dejavu ttf-opensans noto-fonts freetype2 terminus-font ttf-bitstream-vera ttf-dejavu ttf-droid ttf-fira-mono ttf-fira-sans ttf-freefont ttf-inconsolata ttf-liberation libertinus-font ttf-ms-win11-auto
 ```
 
 ## Enable pacman autoclean 
@@ -129,5 +129,5 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NjA2MjE5XX0=
+eyJoaXN0b3J5IjpbLTEwMzgwMDEwMDldfQ==
 -->
