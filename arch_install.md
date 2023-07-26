@@ -183,12 +183,13 @@ yay -S jdk17-openjdk
 ### Install .net/mono
 
 ```
-
+yay -S dotnet-runtime dotnet-sdk aspnet-runtime
 ```
 
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjIxMTUzMCwxODQwMTQyMjcwLC0yMD
-g3ODUzMTU4LC02NDg1NTM4OTUsNTUwMDQwODYxLDQxOTg4Mjcx
-OCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbLTEwOTY2NTk0MDcsLTg1MjIxMTUzMCwxOD
+QwMTQyMjcwLC0yMDg3ODUzMTU4LC02NDg1NTM4OTUsNTUwMDQw
+ODYxLDQxOTg4MjcxOCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0xMD
+M4MDAxMDA5XX0=
 -->
