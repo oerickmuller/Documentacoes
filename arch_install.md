@@ -161,14 +161,11 @@ sudo systemctl start docker.service
 
 ### Install go
 
-Download t
+Download the Linux installer from https://go.dev/dl/
 
 ```bash
-yay -S docker
-sudo usermod -aG docker $USER
-yay -S docker-compose
-sudo systemctl enable docker.service
-sudo systemctl start docker.service
+sudo tar -C /usr/local -xzf go1.20.6.linux-amd64.tar.gz 
+mkd
 ```
 
 ### Install rust
@@ -179,7 +176,7 @@ sudo systemctl start docker.service
 
 ### Bonus: set a special python environment for tools
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0ODEwMjMsLTIwODc4NTMxNTgsLT
+eyJoaXN0b3J5IjpbLTE1ODc3NjM0OTQsLTIwODc4NTMxNTgsLT
 Y0ODU1Mzg5NSw1NTAwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcw
 NiwzMDA2MDg4NDIsLTEwMzgwMDEwMDldfQ==
 -->
