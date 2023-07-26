@@ -124,6 +124,7 @@ sudo make install
 
 ```bash
 yay -S --needed base-devel openssl zlib xz tk
+curl https://pyenv.run | bash
 ```
 
 ### Install nodejs via nvm
@@ -146,7 +147,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDkyOTIyMyw1NTAwNDA4NjEsNDE5OD
+eyJoaXN0b3J5IjpbLTY0ODU1Mzg5NSw1NTAwNDA4NjEsNDE5OD
 gyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIsLTEwMzgwMDEwMDld
 fQ==
 -->
