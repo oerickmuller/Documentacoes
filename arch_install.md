@@ -107,6 +107,10 @@ vm.swappiness = 10
 
 ### Install visual studio code
 
+```bash
+yay -S visual-studio-code
+```
+
 ### Build and install neovim
 
 ### Install python via pyenv
@@ -131,6 +135,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTg5NzA2LDMwMDYwODg0MiwtMTAzOD
-AwMTAwOV19
+eyJoaXN0b3J5IjpbLTE3MDQyOTk1MzgsMTczNTg5NzA2LDMwMD
+YwODg0MiwtMTAzODAwMTAwOV19
 -->
