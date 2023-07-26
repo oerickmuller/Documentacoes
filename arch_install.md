@@ -153,7 +153,8 @@ nvm install --lts
 
 ```bash
 yay -S docker
-
+sudo usermod -aG docker $USER
+yay -S docker-compose
 ```
 
 ### Install go
@@ -172,7 +173,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDA0NzQxNSwtNjQ4NTUzODk1LDU1MD
-A0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2LDMwMDYwODg0Miwt
-MTAzODAwMTAwOV19
+eyJoaXN0b3J5IjpbMjI1NjAxMjc3LC02NDg1NTM4OTUsNTUwMD
+QwODYxLDQxOTg4MjcxOCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0x
+MDM4MDAxMDA5XX0=
 -->
