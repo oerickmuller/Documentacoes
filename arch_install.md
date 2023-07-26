@@ -139,6 +139,16 @@ done
 
 ### Install nodejs via nvm
 
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+```
+
+Install latest node.js LTS version using
+
+```bash
+nvm install --lts
+```
+
 ### Install docker
 
 ### Install go
@@ -157,7 +167,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM1NzE3MTcsLTY0ODU1Mzg5NSw1NT
-AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
-LTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbMTUyOTYwMDg2MiwtNjQ4NTUzODk1LDU1MD
+A0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2LDMwMDYwODg0Miwt
+MTAzODAwMTAwOV19
 -->
