@@ -28,10 +28,18 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 $ yay -S micro exa ripgrep bat zellij tmux
 ```
 
-## Install media codecs
+## Enable bluetooth
+
+```
+yay -S bluez blueman bluez-utils
+sudo modprobe btusb
+sudo systemctl enable bluetooth && sudo systemctl start bluetooth
+```
+
+## Install media codecs and software
 
 ```bash
-$ yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer-vaapi x265 x264 lame
+$ yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer-vaapi x265 x264 lame vlc
 ```
 
 ## Install fonts
@@ -69,6 +77,12 @@ Exec = /usr/bin/paccache -rk 2
 
 ```bash
 yay -S firefox google-chrome vivaldi microsoft-edge-stable-bin
+```
+
+## Install image editors and a screenshot helper
+
+```bash
+yay -S shutter gimp inkscapre conjure
 ```
 
 ## Some tweaks:
@@ -109,3 +123,8 @@ vm.swappiness = 10
 
 ### Bonus: set a special python environment for tools
 
+---
+
+This doc is based on:
+
+- (https://arch.d3sox.me/installation/)
