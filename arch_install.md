@@ -127,7 +127,8 @@ yay -S --needed base-devel openssl zlib xz tk
 curl https://pyenv.run | bash
 ```
 
-Don't forget to update the `.bashrc` file as needed.
+Don't forget to update the `.zshenv`  file as needed.
+
 
  
 
@@ -151,7 +152,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MDU3MzM5LC02NDg1NTM4OTUsNTUwMD
-QwODYxLDQxOTg4MjcxOCwxNzM1ODk3MDYsMzAwNjA4ODQyLC0x
-MDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbLTEyNDI5NTU2MDYsLTY0ODU1Mzg5NSw1NT
+AwNDA4NjEsNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIs
+LTEwMzgwMDEwMDldfQ==
 -->
