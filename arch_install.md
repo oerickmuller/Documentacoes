@@ -114,11 +114,16 @@ yay -S visual-studio-code-bin
 ### Build and install neovim
 
 ```bash
-yay -S visual-studio-code-bin
+yay -S base-devel cmake unzip ninja curl
+git clone https://github.com/neovim/neovim
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 ```
 
-
 ### Install python via pyenv
+
+```bash
+
 
 ### Install nodejs via nvm
 
@@ -140,6 +145,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MD
-g4NDIsLTEwMzgwMDEwMDldfQ==
+eyJoaXN0b3J5IjpbLTEwNzkxNzQ0MDksNDE5ODgyNzE4LDE3Mz
+U4OTcwNiwzMDA2MDg4NDIsLTEwMzgwMDEwMDldfQ==
 -->
