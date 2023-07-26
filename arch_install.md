@@ -113,6 +113,11 @@ yay -S visual-studio-code-bin
 
 ### Build and install neovim
 
+```bash
+yay -S visual-studio-code-bin
+```
+
+
 ### Install python via pyenv
 
 ### Install nodejs via nvm
@@ -135,6 +140,6 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzczNTQ2NCwxNzM1ODk3MDYsMzAwNj
-A4ODQyLC0xMDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbNDE5ODgyNzE4LDE3MzU4OTcwNiwzMDA2MD
+g4NDIsLTEwMzgwMDEwMDldfQ==
 -->
