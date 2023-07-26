@@ -12,8 +12,8 @@ makepkg -si
 
 ## Install zsh and oh-my-zsh
 ```bash
-$ yay -S zsh
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+yay -S zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ## Install some command line utilities
@@ -25,7 +25,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 - **zellij** and **tmux** are terminal multiplexers, not required but useful for command line freaks (like me)
 
 ```sh
-$ yay -S micro exa ripgrep bat zellij tmux
+yay -S micro exa ripgrep bat zellij tmux
 ```
 
 ## Enable bluetooth
@@ -39,7 +39,7 @@ sudo systemctl enable bluetooth && sudo systemctl start bluetooth
 ## Install media codecs and software
 
 ```bash
-$ yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer-vaapi x265 x264 lame vlc
+yay -S gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer-vaapi x265 x264 lame vlc
 ```
 
 ## Install fonts
@@ -129,5 +129,5 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTk0MDk0N119
+eyJoaXN0b3J5IjpbMjQ4NjA2MjE5XX0=
 -->
