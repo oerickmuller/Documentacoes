@@ -151,6 +151,11 @@ nvm install --lts
 
 ### Install docker
 
+```bash
+yay -S docker
+
+```
+
 ### Install go
 
 ### Install rust
@@ -167,7 +172,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTYwMDg2MiwtNjQ4NTUzODk1LDU1MD
+eyJoaXN0b3J5IjpbMTIwMDA0NzQxNSwtNjQ4NTUzODk1LDU1MD
 A0MDg2MSw0MTk4ODI3MTgsMTczNTg5NzA2LDMwMDYwODg0Miwt
 MTAzODAwMTAwOV19
 -->
