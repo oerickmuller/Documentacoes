@@ -123,6 +123,7 @@ sudo make install
 ### Install python via pyenv
 
 ```bash
+yay -S --needed base-devel openssl zlib xz tk
 ```
 
 ### Install nodejs via nvm
@@ -145,6 +146,7 @@ This doc is based on:
 
 - (https://arch.d3sox.me/installation/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMDQwODYxLDQxOTg4MjcxOCwxNzM1OD
-k3MDYsMzAwNjA4ODQyLC0xMDM4MDAxMDA5XX0=
+eyJoaXN0b3J5IjpbMTk1NDkyOTIyMyw1NTAwNDA4NjEsNDE5OD
+gyNzE4LDE3MzU4OTcwNiwzMDA2MDg4NDIsLTEwMzgwMDEwMDld
+fQ==
 -->
