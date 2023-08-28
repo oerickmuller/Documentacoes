@@ -1,2 +1,7 @@
-https://ebens.me/post/lua-for-programmers-part-1/
-https://hackernoon.com/why-git-is-a-great-documentation-management-tool-p712339s
+- https://ebens.me/post/lua-for-programmers-part-1/
+- https://hackernoon.com/why-git-is-a-great-documentation-management-tool-p712339s
+- https://www.howtogeek.com/438252/how-writers-can-use-github-to-store-their-work/
+- https://github.com/renerocksai/telekasten.nvim
+- https://hubermanlab.com/goal-toolkit-how-to-set-and-achieve-your-goals/
+- https://ebens.me/post/lua-for-programmers-part-1/
+- https://vonheikemen.github.io/devlog/tools/configuring-neovim-using-lua/
