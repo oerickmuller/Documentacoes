@@ -1,3 +1,0 @@
-# INBOX
-
-+ Ideias diversas
